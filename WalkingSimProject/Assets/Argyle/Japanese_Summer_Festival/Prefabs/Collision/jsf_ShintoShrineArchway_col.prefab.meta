@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9b2e0c8421d9d345b7ecf1e3f51ada9
+timeCreated: 1631513064
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_ShintoShrineArchway_col.prefab
+  uploadId: 454690

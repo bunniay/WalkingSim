@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c65441162559564884cf7746d243802
+timeCreated: 1631630418
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Light_etc/jsf_LightBulb.prefab
+  uploadId: 454690

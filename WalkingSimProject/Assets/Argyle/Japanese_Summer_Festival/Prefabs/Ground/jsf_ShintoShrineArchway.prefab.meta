@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 313f980aedf21bf4aae3c7bd1ce310bb
+timeCreated: 1628243891
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Ground/jsf_ShintoShrineArchway.prefab
+  uploadId: 454690

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 000e4ce6be3a72747b168120d79d9c1f
+timeCreated: 1630503546
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Ground/Ground/jsf_Ground_10.prefab
+  uploadId: 454690

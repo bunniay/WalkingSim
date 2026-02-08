@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d608ac7b45593d4da5dd8c4270c05e9
+timeCreated: 1630921179
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Ground/jsf_StoneWall_Bottom.prefab
+  uploadId: 454690

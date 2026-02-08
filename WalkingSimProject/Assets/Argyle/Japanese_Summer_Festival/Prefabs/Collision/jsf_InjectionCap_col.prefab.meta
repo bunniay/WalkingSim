@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf34dba9609b4414489617cc25562735
+timeCreated: 1631513059
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_InjectionCap_col.prefab
+  uploadId: 454690

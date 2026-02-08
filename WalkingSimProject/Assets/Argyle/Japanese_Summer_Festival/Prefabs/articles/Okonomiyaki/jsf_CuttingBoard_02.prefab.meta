@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 000cca54e1da01343af8a0185256af6b
+timeCreated: 1628248143
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/articles/Okonomiyaki/jsf_CuttingBoard_02.prefab
+  uploadId: 454690

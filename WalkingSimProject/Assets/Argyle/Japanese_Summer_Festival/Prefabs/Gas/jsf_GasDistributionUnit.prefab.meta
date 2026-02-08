@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abe41cf0dfd49cb4ab392c15a117b844
+timeCreated: 1628167086
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Gas/jsf_GasDistributionUnit.prefab
+  uploadId: 454690

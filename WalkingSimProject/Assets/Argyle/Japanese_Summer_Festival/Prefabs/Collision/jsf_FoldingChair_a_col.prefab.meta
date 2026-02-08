@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f5bc43036f4bb494d831fa9a541a96b4
+timeCreated: 1631513057
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_FoldingChair_a_col.prefab
+  uploadId: 454690

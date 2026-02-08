@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a477690a51b6b8b448eb77a5bd358c63
+timeCreated: 1628162787
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Light_etc/Flyer/jsf_Light_BakedCorn_01.prefab
+  uploadId: 454690

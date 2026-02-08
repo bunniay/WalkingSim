@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 430da7adfa4bae64c865ec27ed9a07e1
+timeCreated: 1631513068
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_ShopCurtain_s02_col.prefab
+  uploadId: 454690

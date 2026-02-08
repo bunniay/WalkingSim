@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4303f0ba8fe173f4291eeda1e7b93a0a
+timeCreated: 1628248358
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/articles/Shooting/jsf_GameMachine_01.prefab
+  uploadId: 454690

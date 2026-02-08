@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 226ea04576e15e349b1265737b10efe7
+timeCreated: 1631513061
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_RoadCones_col.prefab
+  uploadId: 454690

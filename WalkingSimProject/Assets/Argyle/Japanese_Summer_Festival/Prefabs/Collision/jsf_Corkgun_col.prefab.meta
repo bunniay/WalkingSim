@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c8a65de29f0837b479cf7d9c01fa919b
+timeCreated: 1631513055
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_Corkgun_col.prefab
+  uploadId: 454690

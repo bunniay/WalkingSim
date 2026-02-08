@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2fa18db17c1442844ae9cfe5a3162659
+timeCreated: 1631629121
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Light_etc/Lantern/jsf_Light_Lantern_01.prefab
+  uploadId: 454690

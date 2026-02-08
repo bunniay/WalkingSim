@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff6672604f941bb4e81e43ce287afdac
+timeCreated: 1631513025
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/Collision/jsf_4P_s03_col.prefab
+  uploadId: 454690

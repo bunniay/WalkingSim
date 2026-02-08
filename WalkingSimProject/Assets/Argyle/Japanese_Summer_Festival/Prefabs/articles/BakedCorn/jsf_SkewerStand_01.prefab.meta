@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d4a0f4a2c064ee34ba89ea049e118c42
+timeCreated: 1628247555
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 203344
+  packageName: Japanese_Summer_Festival
+  packageVersion: 1.0
+  assetPath: Assets/Argyle/Japanese_Summer_Festival/Prefabs/articles/BakedCorn/jsf_SkewerStand_01.prefab
+  uploadId: 454690
