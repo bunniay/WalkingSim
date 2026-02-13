@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 96c4c8adbee828440bf82f73ef4e7a5e, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9100190a6c65c4a0f8520e15f5f1ee96, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -7923,6 +7923,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 6850f555189a5594fa04565036f29108, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1359835055}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 6850f555189a5594fa04565036f29108, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1359835056}
   m_SourcePrefab: {fileID: 100100000, guid: 6850f555189a5594fa04565036f29108, type: 3}
 --- !u!1001 &561008048
 PrefabInstance:
@@ -17825,6 +17828,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.9767325, y: 0.12989736, z: 1.0359992}
   m_Center: {x: 0.0000009536743, y: 0.656326, z: -0.027075617}
+--- !u!65 &1359835056
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359835052}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9767325, y: 0.12989737, z: 1.0359993}
+  m_Center: {x: 0, y: 0.65632606, z: -0.027075142}
 --- !u!4 &1364844237 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 44aa537f0f7035f4790c7da31789093e, type: 3}
@@ -29540,7 +29564,6 @@ SceneRoots:
   - {fileID: 883005346}
   - {fileID: 505890751}
   - {fileID: 145194296}
-  - {fileID: 372091632}
   - {fileID: 325299960}
   - {fileID: 1907342050}
   - {fileID: 1974279657}
@@ -29559,3 +29582,4 @@ SceneRoots:
   - {fileID: 298779216}
   - {fileID: 1503622148}
   - {fileID: 1324522340}
+  - {fileID: 372091632}
