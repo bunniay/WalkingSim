@@ -6,16 +6,21 @@ using TMPro;
 public class IntroDialogueFade : MonoBehaviour
 {
     [Header("Dialogue (TextMeshPro)")]
-    public TMP_Text dialogueText;        // Drag your TextMeshProUGUI here
+    public TMP_Text dialogueText;
     public string[] dialogueLines;
-    public float textDelay = 2f;
 
-    [Header("Intro Sprite (Optional)")]
-    public Image introImage;             // Drag your UI Image here (optional)
+    [Tooltip("Time between each character appearing")]
+    public float typingSpeed = 0.05f;
+
+    [Tooltip("Time to wait after full line is displayed")]
+    public float lineDelay = 1.5f;
+
+    [Header("Intro Sprite")]
+    public Image introImage;
     public bool hideSpriteAfterFade = true;
 
     [Header("Fade Settings")]
-    public CanvasGroup fadePanel;        // Drag black panel with CanvasGroup here
+    public CanvasGroup fadePanel;
     public float fadeDuration = 2f;
 
     private void Start()
@@ -32,11 +37,11 @@ public class IntroDialogueFade : MonoBehaviour
         if (introImage != null)
             introImage.enabled = true;
 
-        // Play dialogue lines
+        // Play dialogue lines with typewriter
         foreach (string line in dialogueLines)
         {
-            dialogueText.text = line;
-            yield return new WaitForSeconds(textDelay);
+            yield return StartCoroutine(TypeLine(line));
+            yield return new WaitForSeconds(lineDelay);
         }
 
         dialogueText.text = "";
@@ -47,6 +52,17 @@ public class IntroDialogueFade : MonoBehaviour
         // Hide sprite after fade if enabled
         if (hideSpriteAfterFade && introImage != null)
             introImage.enabled = false;
+    }
+
+    IEnumerator TypeLine(string line)
+    {
+        dialogueText.text = "";
+
+        foreach (char letter in line.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
     }
 
     IEnumerator FadeIn()
