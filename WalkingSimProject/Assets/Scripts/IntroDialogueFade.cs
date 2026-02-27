@@ -17,7 +17,6 @@ public class IntroDialogueFade : MonoBehaviour
 
     [Header("Intro Sprite")]
     public Image introImage;
-    public bool hideSpriteAfterFade = true;
 
     [Header("Fade Settings")]
     public CanvasGroup fadePanel;
@@ -30,14 +29,24 @@ public class IntroDialogueFade : MonoBehaviour
 
     IEnumerator PlayIntro()
     {
-        // Start fully black
+        //Start fully black
         fadePanel.alpha = 1f;
 
-        // Make sure sprite is visible during black screen
+        //intro image is invisible here 
         if (introImage != null)
-            introImage.enabled = true;
+        {
+            Color imgColor = introImage.color;
+            introImage.color = new Color(imgColor.r, imgColor.g, imgColor.b, 0f);
+        }
 
-        // Play dialogue lines with typewriter
+        //Small delay before image fades in (optional)
+        yield return new WaitForSeconds(0.1f);
+
+        //Fade image in
+        if (introImage != null)
+            yield return StartCoroutine(FadeImage(0f, 1f));
+
+        // Play dialogue
         foreach (string line in dialogueLines)
         {
             yield return StartCoroutine(TypeLine(line));
@@ -46,12 +55,8 @@ public class IntroDialogueFade : MonoBehaviour
 
         dialogueText.text = "";
 
-        // Fade from black to scene
-        yield return StartCoroutine(FadeIn());
-
-        // Hide sprite after fade if enabled
-        if (hideSpriteAfterFade && introImage != null)
-            introImage.enabled = false;
+        // Fade entire screen (image + text + black panel)
+        yield return StartCoroutine(FadeCanvas(1f, 0f));
     }
 
     IEnumerator TypeLine(string line)
@@ -65,17 +70,33 @@ public class IntroDialogueFade : MonoBehaviour
         }
     }
 
-    IEnumerator FadeIn()
+    IEnumerator FadeCanvas(float start, float end)
     {
         float time = 0f;
 
         while (time < fadeDuration)
         {
             time += Time.deltaTime;
-            fadePanel.alpha = Mathf.Lerp(1f, 0f, time / fadeDuration);
+            fadePanel.alpha = Mathf.Lerp(start, end, time / fadeDuration);
             yield return null;
         }
 
-        fadePanel.alpha = 0f;
+        fadePanel.alpha = end;
+    }
+
+    IEnumerator FadeImage(float start, float end)
+    {
+        float time = 0f;
+        Color baseColor = introImage.color;
+
+        while (time < fadeDuration)
+        {
+            time += Time.deltaTime;
+            float alpha = Mathf.Lerp(start, end, time / fadeDuration);
+            introImage.color = new Color(baseColor.r, baseColor.g, baseColor.b, alpha);
+            yield return null;
+        }
+
+        introImage.color = new Color(baseColor.r, baseColor.g, baseColor.b, end);
     }
 }
