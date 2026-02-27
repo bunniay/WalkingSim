@@ -135,10 +135,10 @@ TextureImporter:
       name: DarkRedUISheet_1
       rect:
         serializedVersion: 2
-        x: 103
-        y: 170
-        width: 103
-        height: 64
+        x: 324
+        y: 166
+        width: 32
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: DarkRedUISheet_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 176
-        width: 62
-        height: 55
+        x: 0
+        y: 123
+        width: 106
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,13 +201,13 @@ TextureImporter:
       name: DarkRedUISheet_4
       rect:
         serializedVersion: 2
-        x: 99
-        y: 158
-        width: 77
-        height: 76
+        x: 0
+        y: 127
+        width: 112
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 17, z: 0, w: 6}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -223,10 +223,10 @@ TextureImporter:
       name: DarkRedUISheet_5
       rect:
         serializedVersion: 2
-        x: 103
-        y: 106
-        width: 103
-        height: 64
+        x: 391
+        y: 169
+        width: 26
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,6 +373,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DarkRedUISheet_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 213
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717499cfda49ae40aa20a2cee953411
+      internalID: 936029562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -395,6 +417,7 @@ TextureImporter:
       DarkRedUISheet_1: 1777729568
       DarkRedUISheet_10: -1603960694
       DarkRedUISheet_11: 1732093968
+      DarkRedUISheet_12: 936029562
       DarkRedUISheet_2: -2046916658
       DarkRedUISheet_3: 2000309231
       DarkRedUISheet_4: 1945230466
